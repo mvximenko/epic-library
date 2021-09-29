@@ -11,7 +11,13 @@
     Epic Library <span class="quantity">({data.length})</span>
   </h1>
 
-  <input bind:value={val} class="search" type="text" aria-label="Search" />
+  <input
+    bind:value={val}
+    class="search"
+    type="text"
+    aria-label="Search"
+    placeholder="Search by Name"
+  />
 </header>
 
 <style lang="scss">
