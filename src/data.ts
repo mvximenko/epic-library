@@ -1,4 +1,5 @@
 const data = [
+  { id: 621060, title: 'PC Building Simulator' },
   { id: 236850, title: 'Europa Universalis IV' },
   { id: 330820, title: '2064: Read Only Memories' },
   { id: 298630, title: 'The Escapists' },
