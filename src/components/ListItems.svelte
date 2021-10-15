@@ -1,4 +1,5 @@
 <script lang="ts">
+  import ImageLoader from './Image/ImageLoader.svelte';
   import { filtered } from '../stores.js';
   import { API_IMG, API_STORE } from '../config';
 </script>
@@ -6,11 +7,10 @@
 <div id="cards">
   {#each $filtered as card}
     <div class="card">
-      <a href="{API_STORE}/{card.id}">
-        <img
+      <a href="{API_STORE}/{card.id}" aria-label={card.title}>
+        <ImageLoader
           width="460"
           height="215"
-          loading="lazy"
           alt={card.title}
           src="{API_IMG}/{card.id}/header.jpg"
         />
@@ -52,10 +52,5 @@
     position: absolute;
     top: 0;
     left: 0;
-  }
-
-  img {
-    height: auto;
-    width: 100%;
   }
 </style>
