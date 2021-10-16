@@ -26,7 +26,7 @@
   loading="lazy"
 />
 
-<style>
+<style lang="scss">
   img {
     height: auto;
     width: 100%;

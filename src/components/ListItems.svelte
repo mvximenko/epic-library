@@ -5,7 +5,7 @@
 </script>
 
 <div id="cards">
-  {#each $filtered as card}
+  {#each $filtered as card (card)}
     <div class="card">
       <a href="{API_STORE}/{card.id}" aria-label={card.title}>
         <ImageLoader
