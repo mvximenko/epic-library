@@ -1,10 +1,13 @@
 const data = [
+  { id: 381210, title: 'Dead by Daylight' },
+  { id: 619150, title: 'while True: learn()' },
   { id: 518790, title: 'theHunter: Call of the Wild™' },
   { id: 317820, title: 'Guild of Dungeoneering' },
   { id: 295790, title: 'Never Alone (Kisima Ingitchuna)' },
   {
     id: 1712840,
-    title: `Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure`,
+    title:
+      "Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure",
   },
   { id: 484900, title: 'Aven Colony' },
   { id: 433550, title: 'DARQ: Complete Edition' },
