@@ -1,4 +1,7 @@
 const data = [
+  { id: 617290, title: 'Remnant: From the Ashes' },
+  { id: 788100, title: 'Neon Abyss' },
+  { id: 878670, title: 'Shenmue III' },
   { id: 233450, title: 'Prison Architect' },
   // Godfall Challenger Edition
   { id: 381210, title: 'Dead by Daylight' },
