@@ -1,4 +1,9 @@
 const data = [
+  { id: 846870, title: 'Yooka-Laylee and the Impossible Lair' },
+  { id: 1237630, title: 'DAEMON X MACHINA - Prototype Arsenal Set' },
+  { id: 1167450, title: 'DAEMON X MACHINA' },
+  { id: 941570, title: 'Relicta' },
+  { id: 1243690, title: 'Gods Will Fall' },
   { id: 203160, title: 'Tomb Raider' },
   { id: 750920, title: 'Shadow of the Tomb Raider: Definitive Edition' },
   { id: 505540, title: 'Rise of the Tomb Raider 20 Year Celebration Pack' },
