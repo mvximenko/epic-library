@@ -1,4 +1,9 @@
 const data = [
+  { id: 1119980, title: 'In Sound Mind' },
+  { id: 1714180, title: 'Black Widow: Recharged' },
+  { id: 1630960, title: 'Centipede: Recharged' },
+  { id: 225080, title: 'Brothers - A Tale of Two Sons' },
+  { id: 1162130, title: 'Windbound' },
   { id: 846870, title: 'Yooka-Laylee and the Impossible Lair' },
   { id: 1237630, title: 'DAEMON X MACHINA - Prototype Arsenal Set' },
   { id: 1167450, title: 'DAEMON X MACHINA' },
@@ -78,7 +83,7 @@ const data = [
   { id: 234270, title: "Ken Follett's The Pillars of the Earth" },
   { id: 292910, title: 'Deponia: The Complete Journey' },
   { id: 828740, title: 'Tales of the Neon Sea' },
-  // Hitman 3
+  { id: 1659040, title: 'HITMAN 3' },
   { id: 852300, title: 'Creature in the Well' },
   { id: 464920, title: 'Surviving Mars' },
   { id: 251060, title: 'Wargame: Red Dragon' },
