@@ -1,4 +1,6 @@
 const data = [
+  { id: 241600, title: 'Rogue Legacy' },
+  { id: 1851340, title: 'Neon Abyss - Chrono Trap' },
   { id: 364360, title: 'Total War: WARHAMMER' },
   { id: 301840, title: 'City of Brass' },
   { id: 422510, title: "DEMON'S TILT" },
