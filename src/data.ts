@@ -1,4 +1,6 @@
 const data = [
+  { id: 268500, title: 'XCOM® 2' },
+  { id: 1385100, title: 'Insurmountable' },
   { id: 241600, title: 'Rogue Legacy' },
   { id: 1851340, title: 'Neon Abyss - Chrono Trap' },
   { id: 364360, title: 'Total War: WARHAMMER' },
@@ -139,7 +141,7 @@ const data = [
   { id: 346940, title: 'Shadowrun: Hong Kong - Extended Edition' },
   { id: 300550, title: "Shadowrun: Dragonfall - Director's Cut" },
   { id: 234650, title: 'Shadowrun Returns' },
-  { id: 863550, title: 'HITMAN™ 2' },
+  { id: 236870, title: 'HITMAN™' },
   { id: 488730, title: "God's Trigger" },
   { id: 311690, title: 'Enter the Gungeon' },
   { id: 1144770, title: 'SLUDGE LIFE' },
