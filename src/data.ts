@@ -1,4 +1,6 @@
 const data = [
+  { id: 459370, title: 'Riverbond' },
+  { id: 999220, title: 'Amnesia: Rebirth' },
   { id: 268500, title: 'XCOM® 2' },
   { id: 1385100, title: 'Insurmountable' },
   { id: 241600, title: 'Rogue Legacy' },
