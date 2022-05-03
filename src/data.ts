@@ -1,4 +1,6 @@
 const data = [
+  { id: 600370, title: 'Paradigm' },
+  { id: 979070, title: 'Just Die Already' },
   { id: 459370, title: 'Riverbond' },
   { id: 999220, title: 'Amnesia: Rebirth' },
   { id: 268500, title: 'XCOM® 2' },
