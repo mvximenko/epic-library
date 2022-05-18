@@ -1,4 +1,6 @@
 const data = [
+  { id: 517710, title: 'Buy Redout: Enhanced Edition' },
+  { id: 323580, title: 'Jotun: Valhalla Edition' },
   { id: 800270, title: 'Terraforming Mars' },
   { id: 600370, title: 'Paradigm' },
   { id: 979070, title: 'Just Die Already' },
