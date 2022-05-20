@@ -1,4 +1,5 @@
 const data = [
+  { id: 397540, title: 'Borderlands 3' },
   { id: 517710, title: 'Buy Redout: Enhanced Edition' },
   { id: 323580, title: 'Jotun: Valhalla Edition' },
   { id: 800270, title: 'Terraforming Mars' },
