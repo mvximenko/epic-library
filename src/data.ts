@@ -1,8 +1,8 @@
 const data = [
-  { id: 2028850, title: 'Bioshock Infinite: Columbia's Finest' },
+  { id: 2028850, title: "Bioshock Infinite: Columbia's Finest" },
   { id: 214933, title: 'BioShock Infinite - Season Pass' },
   { id: 8870, title: 'BioShock Infinite' },
-  { id: 525720, title: 'BioShock 2: Minerva's Den Remastered' },
+  { id: 525720, title: "BioShock 2: Minerva's Den Remastered" },
   { id: 409720, title: 'BioShock™ 2 Remastered' },
   { id: 409710, title: 'BioShock™ Remastered' },
   { id: 397540, title: 'Borderlands 3' },
