@@ -1,4 +1,5 @@
 const data = [
+  { id: 629820, title: 'Maneater' },
   { id: 201810, title: 'Wolfenstein: The New Order' },
   { id: 2028850, title: "Bioshock Infinite: Columbia's Finest" },
   { id: 214933, title: 'BioShock Infinite - Season Pass' },
