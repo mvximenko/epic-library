@@ -1,4 +1,6 @@
 const data = [
+  { id: 1075190, title: 'A Game Of Thrones: The Board Game Digital Edition' },
+  { id: 645630, title: 'Car Mechanic Simulator 2018' },
   { id: 1097150, title: 'Fall Guys' },
   { id: 813630, title: 'Supraland' },
   { id: 629820, title: 'Maneater' },
