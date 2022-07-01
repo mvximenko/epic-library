@@ -1,4 +1,7 @@
 const data = [
+  { id: 927350, title: 'Hood: Outlaws & Legends' },
+  { id: 807120, title: 'Iratus: Lord of the Dead' },
+  { id: 1424710, title: 'Geneforge 1 - Mutagen' },
   { id: 1075190, title: 'A Game Of Thrones: The Board Game Digital Edition' },
   { id: 645630, title: 'Car Mechanic Simulator 2018' },
   { id: 1097150, title: 'Fall Guys' },
