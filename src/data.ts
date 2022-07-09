@@ -1,4 +1,6 @@
 const data = [
+  { id: 993790, title: 'Ancient Enemy' },
+  { id: 232090, title: 'Killing Floor 2' },
   { id: 927350, title: 'Hood: Outlaws & Legends' },
   { id: 807120, title: 'Iratus: Lord of the Dead' },
   { id: 1424710, title: 'Geneforge 1 - Mutagen' },
