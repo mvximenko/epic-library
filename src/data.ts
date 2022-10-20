@@ -1,6 +1,6 @@
 const data = [
-  
-  
+  { id: 22370, title: "Fallout 3: Game of the Year Edition" },
+  { id: 1020470, title: "Evoland Legendary Edition" },
   { id: 516110, title: "ToeJam & Earl: Back in the Groove!" },
   { id: 369070, title: "Slain: Back from Hell" },
   { id: 657000, title: "Rising Hell" },
