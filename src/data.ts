@@ -1,4 +1,6 @@
 const data = [
+  { id: 418240, title: "Shadow Tactics: Blades of the Shogun" },
+  { id: 1337010, title: "Alba: A Wildlife Adventure" },
   { id: 1137350, title: "Filament" },
   { id: 673880, title: "Warhammer 40,000: Mechanicus" },
   { id: 22370, title: "Fallout 3: Game of the Year Edition" },
