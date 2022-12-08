@@ -1,4 +1,10 @@
 const data = [
+  { id: 1288610, title: "Wildcat Gun Machine" },
+  { id: 206420, title: "Saints Row IV: Re-Elected" },
+  { id: 498310, title: "RPG in a Box" },
+  { id: 612570, title: "Fort Triumph" },
+  { id: 1222730, title: "STAR WARS™: Squadrons" },
+  { id: 1374840, title: "Dark Deity" },
   { id: 418240, title: "Shadow Tactics: Blades of the Shogun" },
   { id: 1337010, title: "Alba: A Wildlife Adventure" },
   { id: 1137350, title: "Filament" },
