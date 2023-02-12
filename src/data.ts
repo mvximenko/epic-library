@@ -1,4 +1,9 @@
 const data = [
+  { id: 1492360, title: "Recipe for Disaster" },
+  { id: 1386780, title: "City of Gangsters" },
+  { id: 964440, title: "Hell is Others" },
+  { id: 1271400, title: "Adios" },
+  { id: 398850, title: "Epistory - Typing Chronicles" },
   { id: 917720, title: "Gamedec - Definitive Edition" },
   { id: 953880, title: "First Class Trouble" },
   { id: 212893, title: "Dishonored - Void Walker Arsenal" },
@@ -8,7 +13,6 @@ const data = [
   { id: 205100, title: "Dishonored" },
   { id: 921800, title: "Encased: A Sci-Fi Post-Apocalyptic RPG" },
   { id: 1579380, title: "Shadow Tactics - Aiko's Choice" },
-  { id: 220200, title: "Kerbal Space Program" },
   { id: 505740, title: "Eximius: Seize the Frontline" },
   { id: 1110910, title: "Mortal Shell" },
   { id: 1227690, title: "Severed Steel" },
