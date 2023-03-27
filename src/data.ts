@@ -1,4 +1,6 @@
 const data = [
+  { id: 518060, title: "Chess Ultra" },
+  { id: 489630, title: "Warhammer 40,000: Gladius - Relics of War" },
   { id: 1042490, title: "Call of the Sea" },
   { id: 671440, title: "Rise of Industry" },
   { id: 254320, title: "Duskers" },
