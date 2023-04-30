@@ -1,9 +1,8 @@
 const data = [
   { id: 1174460, title: "Poker Club" },
-  { id: 1318690, title: "shapez" },
   { id: 738520, title: "Breathedge" },
   { id: 883360, title: "Beyond Blue" },
-  { id: 1318690, title: "MORDHAU" },
+  { id: 629760, title: "MORDHAU" },
   { id: 1318690, title: "shapez" },
   { id: 352520, title: "The Silent Age" },
   { id: 887450, title: "Tunche" },
