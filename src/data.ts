@@ -1,4 +1,6 @@
 const data = [
+  { id: 534550, title: "Guacamelee! 2" },
+  { id: 275390, title: "Guacamelee! Super Turbo Championship Edition" },
   { id: 915810, title: "Midnight Ghost Hunt" },
   { id: 22380, title: "Fallout: New Vegas" },
   { id: 1370140, title: "Kao the Kangaroo" },
