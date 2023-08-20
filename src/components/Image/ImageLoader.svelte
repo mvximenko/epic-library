@@ -3,6 +3,7 @@
   export let alt: string;
   export let width: string;
   export let height: string;
+  export let fallback: string;
 
   import IntersectionObserver from './IntersectionObserver.svelte';
   import Image from './Image.svelte';
@@ -10,6 +11,6 @@
 
 <IntersectionObserver once={true} let:intersecting>
   {#if intersecting}
-    <Image {src} {alt} {width} {height} />
+    <Image {src} {alt} {width} {height} {fallback} />
   {/if}
 </IntersectionObserver>
