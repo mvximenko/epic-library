@@ -16,7 +16,7 @@
     class="search"
     type="text"
     aria-label="Search"
-    placeholder="Search by Name"
+    placeholder="Search"
   />
 </header>
 
@@ -25,43 +25,45 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 1.25em 0;
     flex-direction: column;
-    justify-content: center;
+    margin: 1rem 0;
 
     @media screen and (min-width: 600px) {
+      margin: 2rem 0;
       flex-wrap: nowrap;
       flex-direction: row;
       justify-content: space-between;
-    }
-
-    @media screen and (min-width: 1920px) {
-      font-size: 22.4px;
     }
   }
 
   .heading {
     color: #ccc;
+    margin: 0 0 1rem 0;
+
+    @media screen and (min-width: 600px) {
+      margin: 0;
+    }
   }
 
   .quantity {
-    font-size: 0.8em;
+    font-size: 1.6rem;
   }
 
   .search {
-    height: 2em;
-    max-width: 80%;
-    padding: 0 1em;
-    margin-bottom: 0.67em;
-    font-size: 1.2em;
+    width: 100%;
+    height: 2.4rem;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    font-size: 1.2rem;
     color: #ccc;
     background: #24282f;
     border: 2px solid #707070;
-    border-radius: 10px;
     outline: none;
 
     @media screen and (min-width: 600px) {
+      border-radius: 10px;
       margin-bottom: 0;
+      width: auto;
     }
   }
 </style>
