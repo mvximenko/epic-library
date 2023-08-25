@@ -1,5 +1,5 @@
 const data = [
-  { id: 281610, title: 'Homeworld: Deserts of Kharak },
+  { id: 281610, title: 'Homeworld: Deserts of Kharak' },
   { id: 1138660, title: 'Black Book' },
   { id: 491950, title: 'Orwell: Keeping an Eye on You' },
   { id: 244160, title: 'Homeworld Remastered Collection' },
