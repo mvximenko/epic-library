@@ -1,4 +1,6 @@
 const data = [
+  { id: 1419290, title: 'Out of Line' },
+  { id: 1620720, title: 'The Forest Quartet' },
   { id: 1766750, title: 'Spelldrifter' },
   { id: 200900, title: 'Cave Story+' },
   { id: 281610, title: 'Homeworld: Deserts of Kharak' },
