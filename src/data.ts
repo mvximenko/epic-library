@@ -1,4 +1,6 @@
 const data = [
+  { id: 1602080, title: 'Soulstice' },
+  { id: 1164250, title: 'Model Builder' },
   { id: 1419290, title: 'Out of Line' },
   { id: 1620720, title: 'The Forest Quartet' },
   { id: 1766750, title: 'Spelldrifter' },
