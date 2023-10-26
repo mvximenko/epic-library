@@ -1,4 +1,6 @@
 const data = [
+  { id: 268050, title: 'The Evil Within' },
+  { id: 1046790, title: 'Eternal Threads' },
   { id: 359100, title: 'Q.U.B.E. 2' },
   { id: 1564220, title: 'Q.U.B.E. 10th Anniversary' },
   { id: 1158940, title: 'Blazing Sails' },
