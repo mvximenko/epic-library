@@ -1,4 +1,6 @@
 const data = [
+  { id: 761030, title: 'EARTHLOCK' },
+  { id: 684450, title: 'Surviving the Aftermath' },
   { id: 1205450, title: 'Golden Light' },
   { id: 1205450, title: 'Turnip Boy Commits Tax Evasion' },
   { id: 1436920, title: 'Tandem: A Tale of Shadows' },
