@@ -1,4 +1,8 @@
 const data = [
+  { id: 961200, title: 'Predecessor' },
+  { id: 1546400, title: 'GigaBash' },
+  { id: 1096690, title: 'Mighty Fight Federation' },
+  { id: 1522080, title: 'Jitsu Squad' },
   { id: 1345890, title: 'Deliver Us Mars' },
   { id: 761030, title: 'EARTHLOCK' },
   { id: 684450, title: 'Surviving the Aftermath' },
