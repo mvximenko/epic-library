@@ -1,4 +1,5 @@
 const data = [
+  { id: 375820, title: 'Human Resource Machine' },
   { id: 578650, title: 'The Outer Worlds' },
   { id: 1475810, title: 'Ghostwire: Tokyo' },
   { id: 550320, title: 'Art of Rally' },
