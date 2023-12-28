@@ -1,5 +1,6 @@
 const data = [
   { id: 593280, title: 'Cat Quest' },
+  { id: 1726120, title: 'Cursed to Golf' },
   { id: 375820, title: 'Human Resource Machine' },
   { id: 578650, title: 'The Outer Worlds' },
   { id: 1475810, title: 'Ghostwire: Tokyo' },
