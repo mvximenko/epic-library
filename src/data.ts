@@ -1,4 +1,6 @@
 const data = [
+  { id: 914710, title: "Cat Quest II" },
+  { id: 1522820, title: "Orcs Must Die! 3" },
   { id: 1172650, title: "INDUSTRIA" },
   { id: 1139280, title: "The Big Con" },
   { id: 2140510, title: "Town of Salem 2" },
