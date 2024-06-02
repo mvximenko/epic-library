@@ -1,4 +1,5 @@
 const data = [
+  { id: 1824220, title: "Chivalry 2" },
   { id: 1248130, title: "Farming Simulator 22" },
   { id: 1222690, title: "Dragon Age: Inquisition" },
   { id: 1666250, title: "Circus Electrique" },
