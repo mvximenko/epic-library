@@ -1,9 +1,6 @@
 <script lang="ts">
   import data from '../data.js';
-  import { term } from '../stores.js';
-
-  let val = '';
-  $: term.set(val);
+  import { search } from '../stores.js';
 </script>
 
 <header class="header">
@@ -12,33 +9,32 @@
   </h1>
 
   <input
-    bind:value={val}
     class="search"
-    type="text"
-    aria-label="Search"
+    aria-label="search"
     placeholder="Search"
+    bind:value={$search}
   />
 </header>
 
 <style lang="scss">
   .header {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    flex-direction: column;
     margin: 1rem 0;
 
     @media screen and (min-width: 600px) {
-      margin: 2rem 0;
-      flex-wrap: nowrap;
       flex-direction: row;
+      flex-wrap: nowrap;
       justify-content: space-between;
+      margin: 2rem 0;
     }
   }
 
   .heading {
-    color: #ccc;
     margin: 0 0 1rem 0;
+    color: var(--text-color-primary);
 
     @media screen and (min-width: 600px) {
       margin: 0;
@@ -52,18 +48,21 @@
   .search {
     width: 100%;
     height: 2.4rem;
-    padding: 0 1rem;
     box-sizing: border-box;
+    padding: 0 1rem;
+    background: var(--bg-color-secondary);
+    color: var(--text-color-primary);
     font-size: 1.2rem;
-    color: #ccc;
-    background: #24282f;
-    border: 2px solid #707070;
+    border: none;
     outline: none;
 
+    &::placeholder {
+      color: var(--text-color-primary-placeholder);
+    }
+
     @media screen and (min-width: 600px) {
-      border-radius: 10px;
-      margin-bottom: 0;
       width: auto;
+      border-radius: 10px;
     }
   }
 </style>

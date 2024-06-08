@@ -1,62 +1,47 @@
-<script script lang="ts">
+<script lang="ts">
   export let src: string;
   export let alt: string;
-  export let width: string;
-  export let height: string;
   export let fallback: string;
-
-  import { onMount } from 'svelte';
+  export let color = '';
 
   let loaded = false;
-  let header = false;
-  let thisImage;
 
-  onMount(() => {
-    thisImage.onload = () => {
-      loaded = true;
-    };
-    thisImage.onerror = () => {
-      header = true;
-      thisImage.src = fallback;
-      thisImage.classList.add('header');
-    };
-  });
+  function handleLoad() {
+    loaded = true;
+  }
+
+  function handleError(e: Event & { currentTarget: EventTarget & Element }) {
+    if (src !== fallback) {
+      let styles = 'display: flex; align-items: center;';
+
+      if (color) {
+        styles += `background: ${color};`;
+      }
+
+      e.currentTarget.parentElement?.setAttribute('style', styles);
+
+      src = fallback;
+    }
+  }
 </script>
 
-<img
-  {src}
-  {alt}
-  {width}
-  {height}
-  class:loaded
-  class:header
-  bind:this={thisImage}
-  loading="lazy"
-/>
+<div class:loaded>
+  <img {src} {alt} loading="lazy" on:load={handleLoad} on:error={handleError} />
+</div>
 
 <style lang="scss">
-  img {
-    height: auto;
-    width: 100%;
+  div {
+    height: 100%;
     opacity: 0;
     transition: opacity 0.5s;
   }
 
-  img.loaded {
-    opacity: 1;
+  img {
+    width: 100%;
+    height: auto;
   }
 
-  img.header {
-    height: 100%;
-    object-fit: contain;
-    background-color: #24282f;
-    background-image: linear-gradient(
-      to right,
-      #23262c,
-      #23262c 3px,
-      #24282f 3px,
-      #24282f
-    );
-    background-size: 6px 100%;
+  .loaded {
+    opacity: 1;
   }
 </style>
