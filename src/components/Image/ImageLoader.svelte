@@ -1,4 +1,4 @@
-<script script lang="ts">
+<script lang="ts">
   import IntersectionObserver from './IntersectionObserver.svelte';
   import Image from './Image.svelte';
 
