@@ -1,4 +1,6 @@
 const data = [
+  { id: 826940, title: "Maid of Sker" },
+  { id: 1388870, title: "Arcade Paradise" },
   { id: 596970, title: "Sunless Skies: Sovereign Edition" },
   { id: 368260, title: "Marvel's Midnight Suns" },
   { id: 1824220, title: 'Chivalry 2' },
