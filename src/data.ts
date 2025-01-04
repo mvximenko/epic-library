@@ -3,7 +3,6 @@ const data = [
   { id: 379430, title: "Kingdom Come: Deliverance" },
   { id: 2138710, title: "Sifu" },
   { id: 2229940, title: "[REDACTED]" },
-  { id: 1522820, title: "Orcs Must Die! 3" },
   { id: 2694420, title: "KILL KNIGHT" },
   { id: 2144740, title: "Ghostrunner 2" },
   { id: 2016590, title: "Dark and Darker" },
