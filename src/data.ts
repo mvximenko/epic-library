@@ -8,7 +8,6 @@ const data = [
   { id: 909470, title: "Touch Type Tale - Strategic Typing" },
   { id: 1148700, title: "Deadtime Defenders" },
   { id: 1100290, title: "Super Space Club" },
-  { id: 1282730, title: "Loop Hero" },
   { id: 711660, title: "CHUCHEL" },
   { id: 207690, title: "Botanicula" },
   { id: 1049320, title: "River City Girls" },
