@@ -1,4 +1,11 @@
 const data = [
+  { id: 779340, title: "Total War: THREE KINGDOMS" },
+  { id: 690640, title: "Trine 4: The Nightmare Prince" },
+  { id: 319910, title: "Trine 3: The Artifacts of Power" },
+  { id: 35720, title: "Trine 2: Complete Story" },
+  { id: 35700, title: "Trine Enchanted Edition" },
+  { id: 990080, title: "Hogwarts Legacy" },
+  { id: 289070, title: "Sid Meier's Civilization VI Platinum Editin" },
   { id: 1112890, title: "Calico" },
   { id: 2056210, title: "LONESTAR" },
   { id: 2478970, title: "Tomb Raider I-III Remastered Starring Lara Croft" },
